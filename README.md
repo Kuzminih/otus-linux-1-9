@@ -108,7 +108,6 @@ session    include      postlogin
 ```
 [root@pam ~]# yum install -y yum-utils
 [root@pam ~]# yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-```
 [root@pam ~]# yum install -y docker-ce docker-ce-cli containerd.io
 [root@pam ~]# systemctl enable --now docker
 [root@pam ~]# systemctl status docker
